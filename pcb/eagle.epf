@@ -1,5 +1,5 @@
 [Eagle]
-Version="05 11 00"
+Version="05 12 00"
 Platform="Linux"
 Serial="6C1E876D67-LS-WLM-1CS"
 Globals="Globals"
@@ -7,22 +7,26 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
+UsedLibrary="/home/ivan/eagle/lbr/connectors/con-lstb.lbr"
+UsedLibrary="/home/ivan/eagle/lbr/rc-master-smd.lbr"
+UsedLibrary="/home/ivan/eagle/lbr/connectors/pinhead-fixdrills.lbr"
+UsedLibrary="/home/ivan/eagle/lbr/buttons.lbr"
+UsedLibrary="/home/ivan/eagle/lbr/mcu/stm32.lbr"
 UsedLibrary="/home/ivan/eagle/lbr/memory/memory-spi.lbr"
 UsedLibrary="stamp.lbr"
-UsedLibrary="/home/ivan/eagle/lbr/mcu/stm32.lbr"
 UsedLibrary="/home/ivan/eagle/lbr/connectors/sd-mmc.lbr"
-UsedLibrary="/home/ivan/eagle/lbr/connectors/pinhead-fixdrills.lbr"
 UsedLibrary="/home/ivan/eagle/lbr/switch-dil.lbr"
-UsedLibrary="/home/ivan/eagle/lbr/buttons.lbr"
-UsedLibrary="/home/ivan/eagle/lbr/connectors/con-lstb.lbr"
+UsedLibrary="/home/ivan/eagle/lbr/ptc-littlefuse.lbr"
+UsedLibrary="/home/ivan/eagle/lbr/vreg/vreg-pulse.lbr"
+UsedLibrary="jtag.lbr"
 
 [Win_1]
 Type="Schematic Editor"
-Loc="0 28 599 427"
+Loc="1407 736 2006 1135"
 State=1
 Number=1
-File="stamp-control.sch"
-View="-79248 2012423 540168 2410629"
+File="stm32-canstamp.sch"
+View="516016 -206155 3880404 2057553"
 WireWidths=" 0 3048 6096 8128 10160 12700 14224 16764 17780 19304 21844 25400 38100 64516 4064 1524"
 PadDiameters=" 2540 3048 4064 6096 8128 10160 12700 14224 16764 17780 19304 21844 25400 38100 64516 0"
 PadDrills=" 5000 6000 7000 9000 10000 11000 12000 13000 14000 15000 16000 20000 22000 28000 32000 8000"
@@ -54,33 +58,33 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: -79248 2012423 540168 2410629 2: 1165048 -129992 5000312 2335592"
+Views=" 1: 516016 -206155 3880404 2057553 2: 528927 -1793625 7505323 2900401"
 Sheet=1
 
 [Win_2]
 Type="Board Editor"
-Loc="943 24 1542 423"
+Loc="1540 755 2139 1154"
 State=1
 Number=2
-File="stamp-control.brd"
-View="-820307 -15821 865511 706539"
-WireWidths=" 0 2540 3048 6096 8128 10160 12700 14224 16764 17780 19304 21844 25400 38100 64516 4064"
+File="stm32-canstamp.brd"
+View="-160 -123567 1169572 489097"
+WireWidths=" 0 12700 14224 16764 17780 19304 21844 25400 38100 64516 10160 8128 4064 6096 3048 2540"
 PadDiameters=" 2540 3048 4064 6096 8128 10160 12700 14224 16764 17780 19304 21844 25400 38100 64516 0"
 PadDrills=" 5000 6000 7000 9000 10000 11000 12000 13000 14000 15000 16000 20000 22000 28000 32000 8000"
 ViaDiameters=" 2540 3048 4064 6096 8128 10160 12700 14224 16764 17780 19304 21844 25400 38100 64516 0"
-ViaDrills=" 5000 7000 8000 9000 10000 11000 12000 13000 14000 15000 16000 20000 22000 28000 32000 6000"
+ViaDrills=" 8000 9000 10000 11000 12000 13000 14000 15000 16000 20000 22000 28000 32000 6000 5000 4000"
 HoleDrills=" 5000 7000 8000 9000 10000 11000 12000 13000 14000 15000 16000 20000 22000 28000 32000 6000"
 TextSizes=" 2540 3048 4064 6096 8128 10160 12700 14224 16764 19304 21844 25400 38100 50800 64516 17780"
 PolygonSpacings=" 2540 3048 4064 6096 8128 10160 14224 16764 17780 19304 21844 25400 38100 50800 64516 12700"
 PolygonIsolates=" 2540 3048 4064 6096 8128 10160 12700 14224 16764 17780 19304 21844 25400 38100 64516 0"
 MiterRadiuss=" 2540 3175 6350 12700 25400 10000 20000 25000 50000 75000 100000 0"
 SmdSizes=" 3048 1524 4064 2032 6096 3048 8128 4064 10160 5080 12700 6604 14224 7112 16764 8128 17780 9144 19304 9652 21844 10668 25400 12700 38100 19304 50800 25400 64516 32512 12700 6350"
-WireBend=0
+WireBend=1
 WireBendSet=0
 WireCap=1
 MiterStyle=0
 PadShape=0
-ViaShape=0
+ViaShape=1
 PolygonPour=0
 PolygonRank=1
 PolygonThermals=1
@@ -94,16 +98,16 @@ SwapLevel=0
 ArcDirection=0
 AddLevel=2
 PadsSameType=0
-Layer=16
+Layer=1
 
 [Win_3]
 Type="Control Panel"
-Loc="59 24 1045 853"
+Loc="-7 24 1027 1036"
 State=2
 Number=0
 
 [Desktop]
-Screen="1920 1080"
+Screen="3000 1920"
 Window="Win_1"
 Window="Win_2"
 Window="Win_3"
