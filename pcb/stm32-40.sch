@@ -8799,6 +8799,62 @@ Sourc: www.ctscorp.com</description>
 <label x="109.22" y="182.88" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="PA0" class="0">
+<segment>
+<pinref part="STMP1" gate="G$2" pin="2"/>
+<wire x1="132.08" y1="226.06" x2="106.68" y2="226.06" width="0.1524" layer="91"/>
+<label x="109.22" y="226.06" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PA1" class="0">
+<segment>
+<pinref part="STMP1" gate="G$2" pin="3"/>
+<wire x1="106.68" y1="223.52" x2="132.08" y2="223.52" width="0.1524" layer="91"/>
+<label x="109.22" y="223.52" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PA2" class="0">
+<segment>
+<pinref part="STMP1" gate="G$2" pin="4"/>
+<wire x1="132.08" y1="220.98" x2="106.68" y2="220.98" width="0.1524" layer="91"/>
+<label x="109.22" y="220.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PA3" class="0">
+<segment>
+<pinref part="STMP1" gate="G$2" pin="5"/>
+<wire x1="106.68" y1="218.44" x2="132.08" y2="218.44" width="0.1524" layer="91"/>
+<label x="109.22" y="218.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PA4" class="0">
+<segment>
+<pinref part="STMP1" gate="G$2" pin="6"/>
+<wire x1="132.08" y1="215.9" x2="106.68" y2="215.9" width="0.1524" layer="91"/>
+<label x="109.22" y="215.9" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PA5" class="0">
+<segment>
+<pinref part="STMP1" gate="G$2" pin="7"/>
+<wire x1="106.68" y1="213.36" x2="132.08" y2="213.36" width="0.1524" layer="91"/>
+<label x="109.22" y="213.36" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PA6" class="0">
+<segment>
+<pinref part="STMP1" gate="G$2" pin="8"/>
+<wire x1="132.08" y1="210.82" x2="106.68" y2="210.82" width="0.1524" layer="91"/>
+<label x="109.22" y="210.82" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PA7" class="0">
+<segment>
+<pinref part="STMP1" gate="G$2" pin="9"/>
+<wire x1="132.08" y1="208.28" x2="106.68" y2="208.28" width="0.1524" layer="91"/>
+<label x="109.22" y="208.28" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
