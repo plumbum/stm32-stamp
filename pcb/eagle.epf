@@ -130,8 +130,16 @@ PadsSameType=0
 Layer=21
 
 [Win_3]
+Type="CAM Processor"
+Loc="471 375 1070 866"
+State=2
+Number=3
+File="stm32-d40-platform.brd"
+Job="/home/ivan/eagle/drc/ITeadstudio_CAM.cam"
+
+[Win_4]
 Type="Control Panel"
-Loc="59 122 1027 1306"
+Loc="-12 37 956 1221"
 State=2
 Number=0
 
@@ -140,3 +148,4 @@ Screen="3000 1920"
 Window="Win_1"
 Window="Win_2"
 Window="Win_3"
+Window="Win_4"
