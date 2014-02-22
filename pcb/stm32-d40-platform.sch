@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -8,24 +8,24 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -34,8 +34,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -43,16 +43,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -6526,23 +6526,6 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="BAT54" prefix="D" uservalue="yes">
-<description>&lt;B&gt;DIODE&lt;/B&gt;</description>
-<gates>
-<gate name="G$1" symbol="D" x="0" y="0"/>
-</gates>
-<devices>
-<device name="A1-C3" package="SOT23">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="C" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="D-" prefix="D" uservalue="yes">
 <description>&lt;B&gt;DIODE&lt;/B&gt;</description>
 <gates>
@@ -11811,7 +11794,7 @@ SD Series, Vertical mount</description>
 <part name="R16" library="rc-master-smd" deviceset="R_" device="0603" value="10K"/>
 <part name="R18" library="rc-master-smd" deviceset="R_" device="0603" value="10K"/>
 <part name="GND13" library="rs485" deviceset="GND" device=""/>
-<part name="R19" library="rc-master-smd" deviceset="R_" device="0603" value="100"/>
+<part name="R19" library="rc-master-smd" deviceset="R_" device="0603" value="220"/>
 <part name="R21" library="rc-master-smd" deviceset="R_" device="0603" value="100"/>
 <part name="C18" library="rc-master-smd" deviceset="C_" device="0603" value="20pF"/>
 <part name="GND15" library="rs485" deviceset="GND" device=""/>
@@ -11822,16 +11805,12 @@ SD Series, Vertical mount</description>
 <part name="USB1" library="usb" deviceset="USB" device="-MB-S2"/>
 <part name="GND16" library="rs485" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
-<part name="R26" library="rc-master-smd" deviceset="R_" device="0603" value="0"/>
-<part name="R27" library="rc-master-smd" deviceset="R_" device="0603" value="0"/>
+<part name="R26" library="rc-master-smd" deviceset="R_" device="0603" value="22"/>
+<part name="R27" library="rc-master-smd" deviceset="R_" device="0603" value="22"/>
 <part name="R28" library="rc-master-smd" deviceset="R_" device="0603" value="1.5K"/>
 <part name="R29" library="rc-master-smd" deviceset="R_" device="0603" value="4.7K"/>
 <part name="R30" library="rc-master-smd" deviceset="R_" device="0603" value="4.7K"/>
 <part name="GND17" library="rs485" deviceset="GND" device=""/>
-<part name="R31" library="rc-master-smd" deviceset="R_" device="0603" value="10K"/>
-<part name="GND18" library="rs485" deviceset="GND" device=""/>
-<part name="R32" library="rc-master-smd" deviceset="R_" device="0603" value="100"/>
-<part name="D2" library="diodes" deviceset="BAT54" device="A1-C3"/>
 <part name="TP1" library="testpad" deviceset="TP" device="B1,27"/>
 <part name="U1" library="vreg-linear" deviceset="LM1117" device="" technology="-3.3"/>
 <part name="GND19" library="rs485" deviceset="GND" device=""/>
@@ -11846,8 +11825,8 @@ SD Series, Vertical mount</description>
 <part name="LED3" library="led" deviceset="LED" device="CHIPLED_0603" value="Red"/>
 <part name="LED4" library="led" deviceset="LED" device="CHIPLED_0603" value="Green"/>
 <part name="GND21" library="rs485" deviceset="GND" device=""/>
-<part name="R34" library="rc-master-smd" deviceset="R_" device="0603" value="100"/>
-<part name="R35" library="rc-master-smd" deviceset="R_" device="0603" value="100"/>
+<part name="R34" library="rc-master-smd" deviceset="R_" device="0603" value="510"/>
+<part name="R35" library="rc-master-smd" deviceset="R_" device="0603" value="510"/>
 <part name="JP1" library="pinhead-fixdrills" deviceset="PINHD-1X4" device="_2.00"/>
 <part name="GND22" library="rs485" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
@@ -11935,6 +11914,11 @@ SD Series, Vertical mount</description>
 <part name="OUT5" library="pinhead-fixdrills" deviceset="PIN-1X1" device="_2.54"/>
 <part name="OUT6" library="pinhead-fixdrills" deviceset="PIN-1X1" device="_2.54"/>
 <part name="OUT7" library="pinhead-fixdrills" deviceset="PIN-1X1" device="_2.54"/>
+<part name="R37" library="rc-master-smd" deviceset="R_" device="0603" value="220"/>
+<part name="C29" library="rc-master-smd" deviceset="C_" device="0603" value="0.01"/>
+<part name="GND33" library="rs485" deviceset="GND" device=""/>
+<part name="R38" library="rc-master-smd" deviceset="R_" device="0603" value="4.7K"/>
+<part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13705,12 +13689,14 @@ SD Series, Vertical mount</description>
 <sheet>
 <plain>
 <text x="287.02" y="12.7" size="2.54" layer="97">ST-Link/Versaloon</text>
-<text x="212.852" y="194.31" size="1.778" layer="97">Not Fitted</text>
-<wire x1="215.9" y1="193.802" x2="210.82" y2="193.802" width="0.1524" layer="97"/>
-<wire x1="210.82" y1="193.802" x2="211.582" y2="193.548" width="0.1524" layer="97"/>
-<wire x1="211.582" y1="193.548" x2="211.582" y2="194.056" width="0.1524" layer="97"/>
-<wire x1="211.582" y1="194.056" x2="210.82" y2="193.802" width="0.1524" layer="97"/>
+<text x="240.792" y="194.31" size="1.778" layer="97">Not Fitted</text>
+<wire x1="243.84" y1="193.802" x2="238.76" y2="193.802" width="0.1524" layer="97"/>
+<wire x1="238.76" y1="193.802" x2="239.522" y2="193.548" width="0.1524" layer="97"/>
+<wire x1="239.522" y1="193.548" x2="239.522" y2="194.056" width="0.1524" layer="97"/>
+<wire x1="239.522" y1="194.056" x2="238.76" y2="193.802" width="0.1524" layer="97"/>
 <text x="346.71" y="210.312" size="1.778" layer="97" rot="R90">SWD Programming</text>
+<text x="192.532" y="153.67" size="1.778" layer="97">Not used currently.</text>
+<text x="192.532" y="156.21" size="1.778" layer="97">SWIM dummy circuit.</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="-5.08" y="-5.08"/>
@@ -13738,10 +13724,10 @@ SD Series, Vertical mount</description>
 <instance part="R16" gate="G$1" x="40.64" y="210.82"/>
 <instance part="R18" gate="G$1" x="48.26" y="205.74"/>
 <instance part="GND13" gate="1" x="190.5" y="172.72" rot="R90"/>
-<instance part="R19" gate="G$1" x="195.58" y="147.32"/>
-<instance part="R21" gate="G$1" x="195.58" y="200.66"/>
-<instance part="C18" gate="G$1" x="203.2" y="195.58"/>
-<instance part="GND15" gate="1" x="203.2" y="187.96"/>
+<instance part="R19" gate="G$1" x="195.58" y="142.24"/>
+<instance part="R21" gate="G$1" x="223.52" y="200.66"/>
+<instance part="C18" gate="G$1" x="231.14" y="195.58"/>
+<instance part="GND15" gate="1" x="231.14" y="187.96"/>
 <instance part="R22" gate="G$1" x="307.34" y="177.8"/>
 <instance part="R23" gate="G$1" x="307.34" y="170.18"/>
 <instance part="R24" gate="G$1" x="307.34" y="154.94"/>
@@ -13752,14 +13738,10 @@ SD Series, Vertical mount</description>
 <instance part="R26" gate="G$1" x="307.34" y="124.46"/>
 <instance part="R27" gate="G$1" x="307.34" y="116.84"/>
 <instance part="R28" gate="G$1" x="314.96" y="132.08" rot="R90"/>
-<instance part="R29" gate="G$1" x="210.82" y="220.98"/>
-<instance part="R30" gate="G$1" x="203.2" y="213.36" rot="R90"/>
-<instance part="GND17" gate="1" x="203.2" y="205.74"/>
-<instance part="R31" gate="G$1" x="340.36" y="190.5"/>
-<instance part="GND18" gate="1" x="350.52" y="190.5" rot="R90"/>
-<instance part="R32" gate="G$1" x="307.34" y="190.5"/>
-<instance part="D2" gate="G$1" x="320.04" y="190.5" rot="R180"/>
-<instance part="TP1" gate="G$1" x="220.98" y="200.66" rot="R270"/>
+<instance part="R29" gate="G$1" x="236.22" y="220.98"/>
+<instance part="R30" gate="G$1" x="228.6" y="213.36" rot="R90"/>
+<instance part="GND17" gate="1" x="228.6" y="205.74"/>
+<instance part="TP1" gate="G$1" x="248.92" y="200.66" rot="R270"/>
 <instance part="U1" gate="G$1" x="304.8" y="78.74"/>
 <instance part="GND19" gate="1" x="304.8" y="60.96"/>
 <instance part="C19" gate="G$1" x="289.56" y="71.12"/>
@@ -13781,13 +13763,18 @@ SD Series, Vertical mount</description>
 <instance part="JP1" gate="A" x="340.36" y="215.9"/>
 <instance part="GND22" gate="1" x="330.2" y="205.74"/>
 <instance part="P+3" gate="VCC" x="15.24" y="241.3"/>
-<instance part="+3V3" gate="G$1" x="330.2" y="198.12"/>
+<instance part="+3V3" gate="G$1" x="330.2" y="190.5"/>
 <instance part="P+4" gate="VCC" x="38.1" y="165.1"/>
 <instance part="P+5" gate="VCC" x="129.54" y="116.84" rot="R270"/>
-<instance part="P+6" gate="VCC" x="223.52" y="220.98" rot="R270"/>
+<instance part="P+6" gate="VCC" x="248.92" y="220.98" rot="R270"/>
 <instance part="P+7" gate="VCC" x="330.2" y="233.68"/>
 <instance part="P+8" gate="VCC" x="314.96" y="142.24"/>
 <instance part="P+9" gate="VCC" x="327.66" y="86.36"/>
+<instance part="R37" gate="G$1" x="195.58" y="165.1"/>
+<instance part="C29" gate="G$1" x="218.44" y="213.36"/>
+<instance part="GND33" gate="1" x="218.44" y="205.74"/>
+<instance part="R38" gate="G$1" x="236.22" y="231.14"/>
+<instance part="+3V6" gate="G$1" x="248.92" y="231.14" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -13871,7 +13858,7 @@ SD Series, Vertical mount</description>
 <segment>
 <pinref part="GND15" gate="1" pin="GND"/>
 <pinref part="C18" gate="G$1" pin="2"/>
-<wire x1="203.2" y1="190.5" x2="203.2" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="190.5" x2="231.14" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND16" gate="1" pin="GND"/>
@@ -13890,11 +13877,6 @@ SD Series, Vertical mount</description>
 <segment>
 <pinref part="R30" gate="G$1" pin="1"/>
 <pinref part="GND17" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="R31" gate="G$1" pin="2"/>
-<pinref part="GND18" gate="1" pin="GND"/>
-<wire x1="345.44" y1="190.5" x2="347.98" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND19" gate="1" pin="GND"/>
@@ -13933,19 +13915,23 @@ SD Series, Vertical mount</description>
 <wire x1="337.82" y1="215.9" x2="330.2" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="215.9" x2="330.2" y2="208.28" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND33" gate="1" pin="GND"/>
+<pinref part="C29" gate="G$1" pin="2"/>
+<wire x1="218.44" y1="208.28" x2="218.44" y2="210.82" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
 <pinref part="SWD2" gate="G$1" pin="1"/>
 <wire x1="337.82" y1="177.8" x2="330.2" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="330.2" y1="177.8" x2="330.2" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="330.2" y1="190.5" x2="322.58" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="R31" gate="G$1" pin="1"/>
-<wire x1="330.2" y1="190.5" x2="335.28" y2="190.5" width="0.1524" layer="91"/>
-<junction x="330.2" y="190.5"/>
-<pinref part="D2" gate="G$1" pin="A"/>
+<wire x1="330.2" y1="177.8" x2="330.2" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
-<wire x1="330.2" y1="190.5" x2="330.2" y2="195.58" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R38" gate="G$1" pin="2"/>
+<pinref part="+3V6" gate="G$1" pin="+3V3"/>
+<wire x1="241.3" y1="231.14" x2="246.38" y2="231.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="S3.OSC_IN" class="0">
@@ -14027,18 +14013,20 @@ SD Series, Vertical mount</description>
 <net name="S3.AIN1" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="PA0/WKUP/USART2_CTS/ADC12_IN0/TIM2_CH1_ETR"/>
-<wire x1="160.02" y1="220.98" x2="203.2" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="220.98" x2="218.44" y2="220.98" width="0.1524" layer="91"/>
 <label x="165.1" y="220.98" size="1.778" layer="95"/>
 <pinref part="R30" gate="G$1" pin="2"/>
-<wire x1="203.2" y1="220.98" x2="203.2" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="220.98" x2="228.6" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="220.98" x2="228.6" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="R29" gate="G$1" pin="1"/>
-<wire x1="205.74" y1="220.98" x2="203.2" y2="220.98" width="0.1524" layer="91"/>
-<junction x="203.2" y="220.98"/>
-</segment>
-<segment>
-<pinref part="R32" gate="G$1" pin="1"/>
-<wire x1="302.26" y1="190.5" x2="284.48" y2="190.5" width="0.1524" layer="91"/>
-<label x="287.02" y="190.5" size="1.778" layer="95"/>
+<wire x1="231.14" y1="220.98" x2="228.6" y2="220.98" width="0.1524" layer="91"/>
+<junction x="228.6" y="220.98"/>
+<pinref part="C29" gate="G$1" pin="1"/>
+<wire x1="218.44" y1="215.9" x2="218.44" y2="220.98" width="0.1524" layer="91"/>
+<junction x="218.44" y="220.98"/>
+<pinref part="R38" gate="G$1" pin="1"/>
+<wire x1="231.14" y1="231.14" x2="228.6" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="231.14" x2="228.6" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -14161,19 +14149,19 @@ SD Series, Vertical mount</description>
 <net name="S3.T_SWDIO_IN" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="PB12/SPI2_NSS/I2C2_SMBAI/TIM1_BKIN/USART3_CK"/>
-<wire x1="160.02" y1="147.32" x2="190.5" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="147.32" x2="203.2" y2="147.32" width="0.1524" layer="91"/>
 <label x="165.1" y="147.32" size="1.778" layer="95"/>
-<pinref part="R19" gate="G$1" pin="1"/>
+<wire x1="203.2" y1="147.32" x2="203.2" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="R19" gate="G$1" pin="2"/>
+<wire x1="203.2" y1="142.24" x2="200.66" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="S3.T_JTMS" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="PB14/SPI2_MISO/TIM1_CH2N/USART3_RTS"/>
-<wire x1="160.02" y1="142.24" x2="203.2" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="142.24" x2="190.5" y2="142.24" width="0.1524" layer="91"/>
 <label x="165.1" y="142.24" size="1.778" layer="95"/>
-<wire x1="203.2" y1="142.24" x2="203.2" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="R19" gate="G$1" pin="2"/>
-<wire x1="203.2" y1="147.32" x2="200.66" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="R19" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="R23" gate="G$1" pin="1"/>
@@ -14198,7 +14186,7 @@ SD Series, Vertical mount</description>
 <net name="N$45" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="PA8/USART1_CK/MCO/TIM1_CH1"/>
-<wire x1="160.02" y1="200.66" x2="190.5" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="200.66" x2="218.44" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="R21" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -14206,29 +14194,28 @@ SD Series, Vertical mount</description>
 <segment>
 <pinref part="R21" gate="G$1" pin="2"/>
 <pinref part="C18" gate="G$1" pin="1"/>
-<wire x1="200.66" y1="200.66" x2="203.2" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="200.66" x2="203.2" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="200.66" x2="218.44" y2="200.66" width="0.1524" layer="91"/>
-<junction x="203.2" y="200.66"/>
-<label x="208.28" y="200.66" size="1.778" layer="95"/>
+<wire x1="228.6" y1="200.66" x2="231.14" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="200.66" x2="231.14" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="200.66" x2="246.38" y2="200.66" width="0.1524" layer="91"/>
+<junction x="231.14" y="200.66"/>
+<label x="236.22" y="200.66" size="1.778" layer="95"/>
 <pinref part="TP1" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="S3.SWIM_IN" class="0">
 <segment>
-<pinref part="IC3" gate="G$1" pin="PB10/I2C2_SCL/USART3_TX/(TIM2_CH3)"/>
-<wire x1="160.02" y1="152.4" x2="187.96" y2="152.4" width="0.1524" layer="91"/>
-<label x="165.1" y="152.4" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="160.02" y1="154.94" x2="187.96" y2="154.94" width="0.1524" layer="91"/>
-<label x="165.1" y="154.94" size="1.778" layer="95"/>
-<pinref part="IC3" gate="G$1" pin="PB9/TIM4_CH4/(I2C1_SDA/CANTX)"/>
-</segment>
-<segment>
-<wire x1="160.02" y1="160.02" x2="187.96" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="160.02" x2="182.88" y2="160.02" width="0.1524" layer="91"/>
 <label x="165.1" y="160.02" size="1.778" layer="95"/>
 <pinref part="IC3" gate="G$1" pin="PB7/I2C1_SDA/TIM4_CH2/(USART1_RX)"/>
+<wire x1="160.02" y1="154.94" x2="182.88" y2="154.94" width="0.1524" layer="91"/>
+<label x="165.1" y="154.94" size="1.778" layer="95"/>
+<pinref part="IC3" gate="G$1" pin="PB9/TIM4_CH4/(I2C1_SDA/CANTX)"/>
+<wire x1="182.88" y1="160.02" x2="182.88" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="PB10/I2C2_SCL/USART3_TX/(TIM2_CH3)"/>
+<wire x1="160.02" y1="152.4" x2="182.88" y2="152.4" width="0.1524" layer="91"/>
+<label x="165.1" y="152.4" size="1.778" layer="95"/>
+<wire x1="182.88" y1="154.94" x2="182.88" y2="152.4" width="0.1524" layer="91"/>
+<junction x="182.88" y="154.94"/>
 </segment>
 </net>
 <net name="S3.SWIM" class="0">
@@ -14236,25 +14223,28 @@ SD Series, Vertical mount</description>
 <pinref part="IC3" gate="G$1" pin="PB11/I2C2_SDA/USART3_RX/(TIM2_CH4)"/>
 <wire x1="160.02" y1="149.86" x2="187.96" y2="149.86" width="0.1524" layer="91"/>
 <label x="165.1" y="149.86" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="IC3" gate="G$1" pin="PB8/TIM4_CH3/(I2C1_SCL/CANRX)"/>
 <wire x1="160.02" y1="157.48" x2="187.96" y2="157.48" width="0.1524" layer="91"/>
 <label x="165.1" y="157.48" size="1.778" layer="95"/>
+<wire x1="187.96" y1="149.86" x2="187.96" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="S3.SWIM_RST" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="PB6/I2C1_SCL/TIM4_CH1/(USART1_TX)"/>
-<wire x1="160.02" y1="162.56" x2="187.96" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="162.56" x2="203.2" y2="162.56" width="0.1524" layer="91"/>
 <label x="165.1" y="162.56" size="1.778" layer="95"/>
+<wire x1="203.2" y1="162.56" x2="203.2" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="R37" gate="G$1" pin="2"/>
+<wire x1="203.2" y1="165.1" x2="200.66" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="S3.SWIM_RST_IN" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="PB5/I2C1_SMBA/(TIM3_CH2/SPI1_MOSI)"/>
-<wire x1="160.02" y1="165.1" x2="187.96" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="165.1" x2="190.5" y2="165.1" width="0.1524" layer="91"/>
 <label x="165.1" y="165.1" size="1.778" layer="95"/>
+<pinref part="R37" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="S3.T_NRST" class="0">
@@ -14308,13 +14298,6 @@ SD Series, Vertical mount</description>
 <wire x1="314.96" y1="121.92" x2="314.96" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="R27" gate="G$1" pin="2"/>
 <wire x1="314.96" y1="116.84" x2="312.42" y2="116.84" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$49" class="0">
-<segment>
-<pinref part="R32" gate="G$1" pin="2"/>
-<pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="312.42" y1="190.5" x2="317.5" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$50" class="0">
@@ -14389,7 +14372,7 @@ SD Series, Vertical mount</description>
 </segment>
 <segment>
 <pinref part="R29" gate="G$1" pin="2"/>
-<wire x1="215.9" y1="220.98" x2="220.98" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="220.98" x2="246.38" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="P+6" gate="VCC" pin="VCC"/>
 </segment>
 <segment>
@@ -14417,6 +14400,34 @@ SD Series, Vertical mount</description>
 <pinref part="R33" gate="G$1" pin="1"/>
 <wire x1="327.66" y1="78.74" x2="332.74" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="P+9" gate="VCC" pin="VCC"/>
+</segment>
+</net>
+<net name="S3.M25_CS" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="PA1/USART2_RTS/ADC12_IN1/TIM2_CH2"/>
+<wire x1="160.02" y1="218.44" x2="187.96" y2="218.44" width="0.1524" layer="91"/>
+<label x="165.1" y="218.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="S3.U2_TX" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="PA2/USART2_TX/ADC12_IN2/TIM2_CH3"/>
+<wire x1="160.02" y1="215.9" x2="187.96" y2="215.9" width="0.1524" layer="91"/>
+<label x="165.1" y="215.9" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="S3.U2_RX" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="PA3/USART2_RX/ADC12_IN3/TIM2_CH4"/>
+<wire x1="160.02" y1="213.36" x2="187.96" y2="213.36" width="0.1524" layer="91"/>
+<label x="165.1" y="213.36" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="S3.U2_CK" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="PA4/SPI1_NSS/ADC12_IN4/USART2_CK"/>
+<wire x1="160.02" y1="210.82" x2="187.96" y2="210.82" width="0.1524" layer="91"/>
+<label x="165.1" y="210.82" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
