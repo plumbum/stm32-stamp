@@ -64,15 +64,43 @@
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
 <layer number="102" name="bot_pads" color="7" fill="5" visible="no" active="yes"/>
+<layer number="103" name="REF" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="104" name="S_DOKU" color="7" fill="1" visible="no" active="yes"/>
 <layer number="105" name="Beschreib" color="9" fill="1" visible="no" active="no"/>
 <layer number="106" name="BGA-Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="107" name="BD-Top" color="5" fill="1" visible="no" active="no"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
 <layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
+<layer number="202" name="202bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
 <layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="yes" active="yes"/>
@@ -6674,7 +6702,7 @@ Sourc: www.ctscorp.com</description>
 <text x="0.635" y="-0.635" size="1.524" layer="95">OUT</text>
 <pin name="IN" x="-7.62" y="0" visible="off" length="short" direction="pwr"/>
 <pin name="GND" x="0" y="-7.62" visible="off" length="short" direction="pwr" rot="R90"/>
-<pin name="OUT" x="7.62" y="0" visible="off" length="short" direction="out" rot="R180"/>
+<pin name="OUT" x="7.62" y="0" visible="off" length="short" direction="sup" rot="R180"/>
 <pin name="MASS" x="7.62" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
@@ -7046,6 +7074,49 @@ NPN Silicon
 </deviceset>
 </devicesets>
 </library>
+<library name="logo">
+<packages>
+<package name="TT_LOGO">
+<wire x1="0" y1="1.27" x2="0" y2="-2.54" width="0.4064" layer="21"/>
+<wire x1="0" y1="1.27" x2="-1.27" y2="-0.635" width="0.4064" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-2.54" y2="-2.54" width="0.4064" layer="21"/>
+<wire x1="0" y1="1.27" x2="1.905" y2="-0.635" width="0.4064" layer="21"/>
+<wire x1="1.905" y1="-0.635" x2="0.635" y2="-0.635" width="0.4064" layer="21"/>
+<wire x1="0.635" y1="-0.635" x2="2.54" y2="-2.54" width="0.4064" layer="21"/>
+<wire x1="-1.27" y1="1.27" x2="-3.81" y2="-2.54" width="0.4064" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-1.27" y2="1.27" width="0.4064" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-0.635" width="0.4064" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="LOGO15.24">
+<wire x1="0" y1="0" x2="10.16" y2="15.24" width="0.8128" layer="94"/>
+<wire x1="10.16" y1="15.24" x2="7.62" y2="15.24" width="0.8128" layer="94"/>
+<wire x1="2.54" y1="0" x2="7.62" y2="7.62" width="0.8128" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="12.7" y2="15.24" width="0.8128" layer="94"/>
+<wire x1="12.7" y1="15.24" x2="20.32" y2="7.62" width="0.8128" layer="94"/>
+<wire x1="20.32" y1="7.62" x2="15.24" y2="7.62" width="0.8128" layer="94"/>
+<wire x1="15.24" y1="7.62" x2="22.86" y2="0" width="0.8128" layer="94"/>
+<wire x1="12.7" y1="-0.254" x2="12.7" y2="15.24" width="0.8128" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="10.16" y2="7.62" width="0.8128" layer="94"/>
+<text x="-0.762" y="-2.54" size="2.1844" layer="94" ratio="20">tuxotronic.org</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LOGO">
+<gates>
+<gate name="G$1" symbol="LOGO15.24" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TT_LOGO">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7089,7 +7160,7 @@ NPN Silicon
 <part name="GND2" library="rs485" deviceset="GND" device=""/>
 <part name="L1" library="rc-master-smd" deviceset="FB_" device="0603" value="bead"/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
-<part name="FRAME1" library="frames-tt.org" deviceset="A3L-LOC" device=""/>
+<part name="FRAME1" library="frames-tt.org" deviceset="A3L-LOC" device="" value="MCU"/>
 <part name="IC2" library="stm32-by-pb" deviceset="AT24C*" device="S" technology="256" value="CAT24M01WI-GT3"/>
 <part name="C12" library="rc-master-smd" deviceset="C_" device="0603" value="0.1"/>
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
@@ -7101,7 +7172,7 @@ NPN Silicon
 <part name="C7" library="rc-master-smd" deviceset="C_" device="0603" value="0.1"/>
 <part name="R9" library="rc-master-smd" deviceset="R_" device="0603" value="10K"/>
 <part name="R10" library="rc-master-smd" deviceset="R_" device="0603" value="10K"/>
-<part name="FRAME2" library="frames-tt.org" deviceset="A3L-LOC" device=""/>
+<part name="FRAME2" library="frames-tt.org" deviceset="A3L-LOC" device="" value="Connections"/>
 <part name="IC4" library="interfaces" deviceset="SN65HVD230" device="" value="AMIS30663CANG2G"/>
 <part name="+3V19" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND40" library="supply1" deviceset="GND" device=""/>
@@ -7209,6 +7280,7 @@ NPN Silicon
 <part name="R49" library="rc-master-smd" deviceset="R_" device="0603" value="3.9K"/>
 <part name="R50" library="rc-master-smd" deviceset="R_" device="0603" value="1K"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
+<part name="U$1" library="logo" deviceset="LOGO" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7327,6 +7399,7 @@ NPN Silicon
 <instance part="R49" gate="G$1" x="167.64" y="45.72"/>
 <instance part="R50" gate="G$1" x="177.8" y="38.1" rot="R90"/>
 <instance part="GND13" gate="1" x="177.8" y="30.48"/>
+<instance part="U$1" gate="G$1" x="355.6" y="25.4"/>
 </instances>
 <busses>
 </busses>
