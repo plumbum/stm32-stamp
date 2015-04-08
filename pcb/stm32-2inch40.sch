@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -7139,7 +7139,7 @@ NPN Silicon
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="R11" library="rc-master-smd" deviceset="R_" device="0603" value="10K"/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
-<part name="LED2" library="led" deviceset="LED" device="CHIP-LED0805"/>
+<part name="LED2" library="led" deviceset="LED" device="CHIP-LED0805" value="Red"/>
 <part name="R6" library="rc-master-smd" deviceset="R_" device="0603" value="220"/>
 <part name="SW1" library="buttons" deviceset="KSS-2EG4430" device=""/>
 <part name="Q2" library="discrete" deviceset="CRYSTAL-" device="HC49S" value="8MHz"/>
@@ -7216,7 +7216,7 @@ NPN Silicon
 <part name="X1" library="con-phoenix-381_l" deviceset="MCV3" device=""/>
 <part name="GND8" library="rs485" deviceset="GND" device=""/>
 <part name="GND9" library="rs485" deviceset="GND" device=""/>
-<part name="JP1" library="stamp" deviceset="UART-5" device="_2.54"/>
+<part name="JP1" library="stamp" deviceset="UART-5" device="_2.54" value="UART"/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="R23" library="rc-master-smd" deviceset="R_" device="0603" value="10K"/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
@@ -7234,7 +7234,7 @@ NPN Silicon
 <part name="R35" library="rc-master-smd" deviceset="R_" device="0603" value="10"/>
 <part name="R36" library="rc-master-smd" deviceset="R_" device="0603" value="10"/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
-<part name="U1" library="vreg-linear" deviceset="LM1117" device="" technology="-3.3"/>
+<part name="U1" library="vreg-linear" deviceset="LM1117" device="" technology="-3.3" value="L1117-3.3"/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
 <part name="C22" library="rc-master-smd" deviceset="C_" device="0805" value="0.1"/>
@@ -7248,7 +7248,7 @@ NPN Silicon
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
 <part name="R44" library="rc-master-smd" deviceset="R_" device="0603" value="560"/>
 <part name="GND21" library="rs485" deviceset="GND" device=""/>
-<part name="LED1" library="led" deviceset="LED" device="CHIP-LED0805"/>
+<part name="LED1" library="led" deviceset="LED" device="CHIP-LED0805" value="Green"/>
 <part name="R5" library="rc-master-smd" deviceset="R_" device="0603" value="220"/>
 <part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
@@ -7258,7 +7258,7 @@ NPN Silicon
 <part name="R40" library="rc-master-smd" deviceset="R_" device="0603" value="10"/>
 <part name="SWD1" library="jtag" deviceset="SWD-6" device=""/>
 <part name="STMP1" library="stamp" deviceset="STAMP-40" device=""/>
-<part name="LCD1" library="lcd1202" deviceset="LCD1202" device="-EXT"/>
+<part name="LCD1" library="lcd1202" deviceset="LCD1202" device="-EXT" value="STE2007 (Nokia1202)"/>
 <part name="C13" library="rc-master-smd" deviceset="C_" device="0603" value="0.1"/>
 <part name="R20" library="rc-master-smd" deviceset="R_" device="0603" value="4.7K"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
@@ -7271,25 +7271,27 @@ NPN Silicon
 <part name="SW3" library="buttons" deviceset="KSS-2EG4430" device=""/>
 <part name="SW4" library="buttons" deviceset="KSS-2EG4430" device=""/>
 <part name="SW5" library="buttons" deviceset="KSS-2EG4430" device=""/>
-<part name="G1" library="battery" deviceset="1220SMT" device=""/>
+<part name="G1" library="battery" deviceset="1220SMT" device="" value="3V"/>
 <part name="R17" library="rc-master-smd" deviceset="R_" device="0603" value="200"/>
 <part name="R18" library="rc-master-smd" deviceset="R_" device="0603" value="200"/>
 <part name="R19" library="rc-master-smd" deviceset="R_" device="0603" value="200"/>
 <part name="R12" library="rc-master-smd" deviceset="R_" device="0603" value="1K"/>
 <part name="R13" library="rc-master-smd" deviceset="R_" device="0603" value="2K"/>
 <part name="R14" library="rc-master-smd" deviceset="R_" device="0603" value="3.9K"/>
-<part name="R16" library="rc-master-smd" deviceset="R_" device="0603" value="1K"/>
+<part name="R16" library="rc-master-smd" deviceset="R_" device="0603" value="2K"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="U$1" library="logo" deviceset="LOGO" device=""/>
 <part name="R7" library="rc-master-smd" deviceset="R_" device="0603" value="10K"/>
+<part name="C24" library="rc-master-smd" deviceset="C_" device="0603" value="0.1"/>
+<part name="GND23" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="106.68" y="210.82" size="2.1844" layer="94" ratio="14">Boot EN</text>
-<text x="106.68" y="231.14" size="1.6764" layer="97">Status LED</text>
+<text x="127" y="226.06" size="1.6764" layer="97">Status LED</text>
 <text x="289.56" y="12.7" size="5.08" layer="97">MCU</text>
-<text x="106.68" y="243.84" size="1.6764" layer="97">Power LED</text>
+<text x="127" y="238.76" size="1.6764" layer="97">Power LED</text>
 </plain>
 <instances>
 <instance part="IC2" gate="G$1" x="259.08" y="200.66"/>
@@ -7402,6 +7404,8 @@ NPN Silicon
 <instance part="GND13" gate="1" x="177.8" y="30.48"/>
 <instance part="U$1" gate="G$1" x="355.6" y="25.4"/>
 <instance part="R7" gate="G$1" x="109.22" y="205.74"/>
+<instance part="C24" gate="G$1" x="185.42" y="38.1"/>
+<instance part="GND23" gate="1" x="185.42" y="30.48"/>
 </instances>
 <busses>
 </busses>
@@ -7584,6 +7588,11 @@ NPN Silicon
 <segment>
 <pinref part="R16" gate="G$1" pin="1"/>
 <pinref part="GND13" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C24" gate="G$1" pin="2"/>
+<pinref part="GND23" gate="1" pin="GND"/>
+<wire x1="185.42" y1="35.56" x2="185.42" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BOOT1" class="0">
@@ -7919,6 +7928,9 @@ NPN Silicon
 <wire x1="177.8" y1="71.12" x2="187.96" y2="71.12" width="0.1524" layer="91"/>
 <junction x="177.8" y="71.12"/>
 <label x="180.34" y="71.12" size="1.778" layer="95"/>
+<pinref part="C24" gate="G$1" pin="1"/>
+<wire x1="177.8" y1="45.72" x2="185.42" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="45.72" x2="185.42" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PA4" class="0">
@@ -8406,7 +8418,7 @@ NPN Silicon
 <instance part="X1" gate=".3" x="160.02" y="99.06" rot="MR0"/>
 <instance part="GND8" gate="1" x="157.48" y="93.98"/>
 <instance part="JP1" gate="A" x="287.02" y="127"/>
-<instance part="GND17" gate="1" x="279.4" y="116.84"/>
+<instance part="GND17" gate="1" x="276.86" y="116.84"/>
 <instance part="GND18" gate="1" x="38.1" y="165.1"/>
 <instance part="R25" gate="G$1" x="45.72" y="226.06" smashed="yes">
 <attribute name="NAME" x="43.18" y="227.6475" size="1.778" layer="95"/>
@@ -8427,7 +8439,10 @@ NPN Silicon
 <instance part="R35" gate="G$1" x="53.34" y="198.12" smashed="yes"/>
 <instance part="R36" gate="G$1" x="53.34" y="195.58" smashed="yes"/>
 <instance part="P+1" gate="1" x="66.04" y="180.34" rot="R270"/>
-<instance part="U1" gate="G$1" x="205.74" y="185.42"/>
+<instance part="U1" gate="G$1" x="205.74" y="185.42" smashed="yes">
+<attribute name="NAME" x="200.66" y="191.262" size="1.778" layer="95"/>
+<attribute name="VALUE" x="200.66" y="188.722" size="1.778" layer="96"/>
+</instance>
 <instance part="P+3" gate="1" x="190.5" y="193.04"/>
 <instance part="+3V8" gate="G$1" x="233.68" y="193.04"/>
 <instance part="C22" gate="G$1" x="223.52" y="180.34"/>
@@ -8564,8 +8579,8 @@ NPN Silicon
 <segment>
 <pinref part="JP1" gate="A" pin="1"/>
 <pinref part="GND17" gate="1" pin="GND"/>
-<wire x1="284.48" y1="121.92" x2="279.4" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="121.92" x2="279.4" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="121.92" x2="276.86" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="121.92" x2="276.86" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND18" gate="1" pin="GND"/>
