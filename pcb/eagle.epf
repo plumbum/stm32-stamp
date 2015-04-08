@@ -7,6 +7,7 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
+UsedLibrary="/home/ivan/eagle/lbr/modules/esp-modules.lbr"
 UsedLibrary="/home/ivan/eagle/lbr/connectors/pinhead-fixdrills.lbr"
 UsedLibrary="/home/ivan/eagle/lbr/mcu/jtag.lbr"
 UsedLibrary="/home/ivan/eagle/lbr/rc-master-smd.lbr"
@@ -36,25 +37,15 @@ UsedLibrary="/home/ivan/eagle/lbr/buzzer.lbr"
 UsedLibrary="/home/ivan/eagle/lbr/rc-master.lbr"
 UsedLibrary="/home/ivan/eagle/lbr/semiconductor.lbr"
 UsedLibrary="/home/ivan/eagle/lbr/semicon-smd-ipc.lbr"
-UsedLibrary="/home/ivan/eagle/lbr/modules/esp-modules.lbr"
 UsedLibrary="/home/ivan/eagle/lbr/connectors/con-phoenix-508.lbr"
 
 [Win_1]
-Type="Text Editor"
-Loc="0 0 499 499"
-State=2
-Number=3
-File="/home/ivan/eagle/iot/home-power-control/hw/power_control.rpt.sch"
-CursorPos="0 0"
-Font="Courier,11,-1,5,50,0,0,0,0,0"
-
-[Win_2]
 Type="Schematic Editor"
 Loc="10 38 609 437"
 State=1
 Number=1
 File="stm32-2inch40-usb-sd-proto.sch"
-View="210.221 111.636 299.395 168.963"
+View="73.5149 52.5885 339.787 223.766"
 WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -93,16 +84,16 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: 10.627 30.9924 78.4188 74.858 2: 112.487 151.679 253.06 242.639 3: 210.221 111.636 299.395 168.963"
+Views=" 1: 10.627 30.9924 78.4188 74.858 2: 112.487 151.679 253.06 242.639 3: 73.5149 52.5885 339.787 223.766"
 Sheet=3
 
-[Win_3]
+[Win_2]
 Type="Board Editor"
 Loc="0 27 599 426"
 State=1
 Number=2
 File="stm32-2inch40-usb-sd-proto.brd"
-View="-23.7001 -25.5807 106.783 98.2047"
+View="3.49609 -2.30094 112.232 100.854"
 WireWidths=" 0 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.2 0.1 1.016 1.4224 1.6764 1.27 0.254 0.4064 0.6096"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -142,15 +133,14 @@ AddLevel=2
 PadsSameType=0
 Layer=1
 
-[Win_4]
+[Win_3]
 Type="Control Panel"
-Loc="46 86 645 485"
+Loc="69 121 668 520"
 State=1
 Number=0
 
 [Desktop]
-Screen="3840 1080"
+Screen="1366 768"
 Window="Win_1"
 Window="Win_2"
 Window="Win_3"
-Window="Win_4"
