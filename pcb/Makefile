@@ -1,23 +1,28 @@
-PROJECT=stm32-d40-platform
+PROJECT=stm32-2inch40-usb-sd-proto
+DATE=`date +%F_%H-%M`
 
-GERB = $(PROJECT).TXT
-GERB += $(PROJECT).GTO
-GERB += $(PROJECT).GTS
-GERB += $(PROJECT).GTL
-GERB += $(PROJECT).GBL
-GERB += $(PROJECT).GBS
-GERB += $(PROJECT).GBO
+FILES  = $(PROJECT).TXT
+FILES += $(PROJECT).GML
+FILES += $(PROJECT).GTO
+FILES += $(PROJECT).GTP
+FILES += $(PROJECT).GTS
+FILES += $(PROJECT).GTL
+FILES += $(PROJECT).GBL
+FILES += $(PROJECT).GBS
+FILES += $(PROJECT).GBP
+FILES += $(PROJECT).GBO
+
 
 all: gerbv
 
-gerbv:
-	gerbv $(GERB)
+gerbv: $(FILES)
+	gerbv $(FILES)
 
-zip:
-	zip $(PROJECT)_gerber.zip $(GERB)
+rar: $(FILES)
+	rar a $(PROJECT)_$(DATE).rar $^
 
-clean:
-	rm -f $(GERB)
 
-.PHONY: gerbv zip clean
+
+
+
 
