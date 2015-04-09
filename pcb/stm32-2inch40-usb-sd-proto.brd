@@ -189,12 +189,12 @@
 <text x="60.325" y="51.7525" size="1.778" layer="22" ratio="18" rot="MR0">STM32 USB stamp module Rev.A</text>
 <text x="67.31" y="49.05375" size="1.778" layer="21" ratio="18" rot="R270">MicroSD</text>
 <wire x1="0" y1="0" x2="69.85" y2="0" width="0.1" layer="51"/>
-<wire x1="69.85" y1="0" x2="69.85" y2="58.42" width="0.1" layer="51"/>
-<wire x1="69.85" y1="58.42" x2="0" y2="58.42" width="0.1" layer="51"/>
+<wire x1="69.85" y1="0" x2="69.85" y2="58.42" width="0.1" layer="21"/>
+<wire x1="69.85" y1="58.42" x2="0" y2="58.42" width="0.1" layer="21"/>
 <wire x1="0" y1="58.42" x2="0" y2="0" width="0.1" layer="51"/>
-<wire x1="71.12" y1="0" x2="71.12" y2="58.42" width="0.1" layer="51"/>
-<wire x1="99.06" y1="59.69" x2="0" y2="59.69" width="0.1" layer="51"/>
-<wire x1="99.06" y1="58.42" x2="71.12" y2="58.42" width="0.1" layer="51"/>
+<wire x1="71.12" y1="0" x2="71.12" y2="58.42" width="0.1" layer="21"/>
+<wire x1="99.06" y1="59.69" x2="0" y2="59.69" width="0.1" layer="21"/>
+<wire x1="99.06" y1="58.42" x2="71.12" y2="58.42" width="0.1" layer="21"/>
 <hole x="73.025" y="1.905" drill="3"/>
 <hole x="97.155" y="1.905" drill="3"/>
 <hole x="73.025" y="56.515" drill="3"/>
@@ -2386,11 +2386,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="56.007" y="70.612" size="0.6096" layer="27" ratio="10"/>
 </element>
 <element name="D3" library="semicon-smd-ipc" package="SOD80" value="" x="62.23" y="83.185" smashed="yes" rot="R270">
-<attribute name="NAME" x="63.5" y="85.725" size="1.27" layer="25" ratio="18" rot="R270"/>
+<attribute name="NAME" x="63.34125" y="84.29625" size="1.27" layer="25" ratio="18" rot="R270"/>
 <attribute name="VALUE" x="59.69" y="85.725" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="D4" library="semicon-smd-ipc" package="SOD80" value="" x="57.785" y="83.185" smashed="yes" rot="R270">
-<attribute name="NAME" x="59.055" y="85.725" size="1.27" layer="25" ratio="18" rot="R270"/>
+<attribute name="NAME" x="58.89625" y="84.29625" size="1.27" layer="25" ratio="18" rot="R270"/>
 <attribute name="VALUE" x="55.245" y="85.725" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="U2" library="vreg-linear" package="SOT223" value="L1117-3.3" x="60.96" y="63.5" smashed="yes" rot="R270">
