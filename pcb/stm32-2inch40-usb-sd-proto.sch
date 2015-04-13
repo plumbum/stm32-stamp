@@ -8139,7 +8139,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <part name="R45" library="rc-master-smd" deviceset="R_" device="0603" value="10"/>
 <part name="R46" library="rc-master-smd" deviceset="R_" device="0603" value="10"/>
 <part name="SWD1" library="jtag" deviceset="SWD-6" device=""/>
-<part name="STMP1" library="stamp" deviceset="STAMP-40" device=""/>
+<part name="STMP" library="stamp" deviceset="STAMP-40" device=""/>
 <part name="LCD1" library="lcd1202" deviceset="LCD1202" device="-EXT" value="STE2007 (Nokia1202)"/>
 <part name="C17" library="rc-master-smd" deviceset="C_" device="0603" value="0.1"/>
 <part name="R27" library="rc-master-smd" deviceset="R_" device="0603" value="4.7K"/>
@@ -9572,8 +9572,8 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <instance part="R46" gate="G$1" x="53.34" y="185.42" smashed="yes">
 <attribute name="VALUE" x="50.8" y="182.245" size="1.778" layer="96"/>
 </instance>
-<instance part="STMP1" gate="G$1" x="27.94" y="203.2" rot="R180"/>
-<instance part="STMP1" gate="G$2" x="134.62" y="203.2" rot="MR180"/>
+<instance part="STMP" gate="G$1" x="27.94" y="203.2" rot="R180"/>
+<instance part="STMP" gate="G$2" x="134.62" y="203.2" rot="MR180"/>
 <instance part="+3V313" gate="G$1" x="121.92" y="243.84"/>
 <instance part="C20" gate="G$1" x="132.08" y="236.22" rot="R90"/>
 <instance part="GND21" gate="1" x="144.78" y="231.14"/>
@@ -9602,7 +9602,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <wire x1="172.72" y1="228.6" x2="172.72" y2="233.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="STMP1" gate="G$2" pin="20"/>
+<pinref part="STMP" gate="G$2" pin="20"/>
 <wire x1="132.08" y1="228.6" x2="121.92" y2="228.6" width="0.1524" layer="91"/>
 <pinref part="+3V313" gate="G$1" pin="+3V3"/>
 <wire x1="121.92" y1="228.6" x2="121.92" y2="236.22" width="0.1524" layer="91"/>
@@ -9659,9 +9659,9 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <junction x="38.1" y="170.18"/>
 <wire x1="30.48" y1="205.74" x2="38.1" y2="205.74" width="0.1524" layer="91"/>
 <junction x="38.1" y="205.74"/>
-<pinref part="STMP1" gate="G$1" pin="2"/>
-<pinref part="STMP1" gate="G$1" pin="11"/>
-<pinref part="STMP1" gate="G$1" pin="20"/>
+<pinref part="STMP" gate="G$1" pin="2"/>
+<pinref part="STMP" gate="G$1" pin="11"/>
+<pinref part="STMP" gate="G$1" pin="20"/>
 </segment>
 <segment>
 <pinref part="GND24" gate="1" pin="GND"/>
@@ -9688,7 +9688,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <pinref part="GND20" gate="1" pin="GND"/>
 <wire x1="124.46" y1="180.34" x2="124.46" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="180.34" x2="124.46" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="STMP1" gate="G$2" pin="1"/>
+<pinref part="STMP" gate="G$2" pin="1"/>
 </segment>
 <segment>
 <pinref part="C20" gate="G$1" pin="2"/>
@@ -9715,7 +9715,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <wire x1="43.18" y1="180.34" x2="63.5" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="177.8" x2="43.18" y2="180.34" width="0.1524" layer="91"/>
 <junction x="43.18" y="180.34"/>
-<pinref part="STMP1" gate="G$1" pin="1"/>
+<pinref part="STMP" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="IN"/>
@@ -9913,175 +9913,175 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <segment>
 <pinref part="R31" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="226.06" x2="40.64" y2="226.06" width="0.1524" layer="91"/>
-<pinref part="STMP1" gate="G$1" pin="19"/>
+<pinref part="STMP" gate="G$1" pin="19"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
 <pinref part="R32" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="223.52" x2="30.48" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="STMP1" gate="G$1" pin="18"/>
+<pinref part="STMP" gate="G$1" pin="18"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
 <pinref part="R33" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="220.98" x2="40.64" y2="220.98" width="0.1524" layer="91"/>
-<pinref part="STMP1" gate="G$1" pin="17"/>
+<pinref part="STMP" gate="G$1" pin="17"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
 <pinref part="R34" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="218.44" x2="30.48" y2="218.44" width="0.1524" layer="91"/>
-<pinref part="STMP1" gate="G$1" pin="16"/>
+<pinref part="STMP" gate="G$1" pin="16"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
 <pinref part="R35" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="215.9" x2="40.64" y2="215.9" width="0.1524" layer="91"/>
-<pinref part="STMP1" gate="G$1" pin="15"/>
+<pinref part="STMP" gate="G$1" pin="15"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
 <pinref part="R36" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="213.36" x2="30.48" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="STMP1" gate="G$1" pin="14"/>
+<pinref part="STMP" gate="G$1" pin="14"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
 <pinref part="R37" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="210.82" x2="40.64" y2="210.82" width="0.1524" layer="91"/>
-<pinref part="STMP1" gate="G$1" pin="13"/>
+<pinref part="STMP" gate="G$1" pin="13"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
 <pinref part="R38" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="208.28" x2="30.48" y2="208.28" width="0.1524" layer="91"/>
-<pinref part="STMP1" gate="G$1" pin="12"/>
+<pinref part="STMP" gate="G$1" pin="12"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="R39" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="203.2" x2="48.26" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="STMP1" gate="G$1" pin="10"/>
+<pinref part="STMP" gate="G$1" pin="10"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="R40" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="200.66" x2="30.48" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="STMP1" gate="G$1" pin="9"/>
+<pinref part="STMP" gate="G$1" pin="9"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
 <pinref part="R41" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="198.12" x2="48.26" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="STMP1" gate="G$1" pin="8"/>
+<pinref part="STMP" gate="G$1" pin="8"/>
 </segment>
 </net>
 <net name="N$24" class="0">
 <segment>
 <pinref part="R42" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="195.58" x2="30.48" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="STMP1" gate="G$1" pin="7"/>
+<pinref part="STMP" gate="G$1" pin="7"/>
 </segment>
 </net>
 <net name="PC13" class="0">
 <segment>
 <wire x1="132.08" y1="182.88" x2="106.68" y2="182.88" width="0.1524" layer="91"/>
 <label x="109.22" y="182.88" size="1.778" layer="95"/>
-<pinref part="STMP1" gate="G$2" pin="2"/>
+<pinref part="STMP" gate="G$2" pin="2"/>
 </segment>
 </net>
 <net name="PA0" class="0">
 <segment>
 <wire x1="132.08" y1="226.06" x2="106.68" y2="226.06" width="0.1524" layer="91"/>
 <label x="109.22" y="226.06" size="1.778" layer="95"/>
-<pinref part="STMP1" gate="G$2" pin="19"/>
+<pinref part="STMP" gate="G$2" pin="19"/>
 </segment>
 </net>
 <net name="PA1" class="0">
 <segment>
 <wire x1="106.68" y1="223.52" x2="132.08" y2="223.52" width="0.1524" layer="91"/>
 <label x="109.22" y="223.52" size="1.778" layer="95"/>
-<pinref part="STMP1" gate="G$2" pin="18"/>
+<pinref part="STMP" gate="G$2" pin="18"/>
 </segment>
 </net>
 <net name="PA2" class="0">
 <segment>
 <wire x1="132.08" y1="220.98" x2="106.68" y2="220.98" width="0.1524" layer="91"/>
 <label x="109.22" y="220.98" size="1.778" layer="95"/>
-<pinref part="STMP1" gate="G$2" pin="17"/>
+<pinref part="STMP" gate="G$2" pin="17"/>
 </segment>
 </net>
 <net name="PA3" class="0">
 <segment>
 <wire x1="106.68" y1="218.44" x2="132.08" y2="218.44" width="0.1524" layer="91"/>
 <label x="109.22" y="218.44" size="1.778" layer="95"/>
-<pinref part="STMP1" gate="G$2" pin="16"/>
+<pinref part="STMP" gate="G$2" pin="16"/>
 </segment>
 </net>
 <net name="PA4" class="0">
 <segment>
 <wire x1="132.08" y1="215.9" x2="106.68" y2="215.9" width="0.1524" layer="91"/>
 <label x="109.22" y="215.9" size="1.778" layer="95"/>
-<pinref part="STMP1" gate="G$2" pin="15"/>
+<pinref part="STMP" gate="G$2" pin="15"/>
 </segment>
 </net>
 <net name="PA5" class="0">
 <segment>
 <wire x1="106.68" y1="213.36" x2="132.08" y2="213.36" width="0.1524" layer="91"/>
 <label x="109.22" y="213.36" size="1.778" layer="95"/>
-<pinref part="STMP1" gate="G$2" pin="14"/>
+<pinref part="STMP" gate="G$2" pin="14"/>
 </segment>
 </net>
 <net name="PA6" class="0">
 <segment>
 <wire x1="132.08" y1="210.82" x2="106.68" y2="210.82" width="0.1524" layer="91"/>
 <label x="109.22" y="210.82" size="1.778" layer="95"/>
-<pinref part="STMP1" gate="G$2" pin="13"/>
+<pinref part="STMP" gate="G$2" pin="13"/>
 </segment>
 </net>
 <net name="PA7" class="0">
 <segment>
 <wire x1="132.08" y1="208.28" x2="106.68" y2="208.28" width="0.1524" layer="91"/>
 <label x="109.22" y="208.28" size="1.778" layer="95"/>
-<pinref part="STMP1" gate="G$2" pin="12"/>
+<pinref part="STMP" gate="G$2" pin="12"/>
 </segment>
 </net>
 <net name="N$25" class="0">
 <segment>
 <pinref part="R43" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="193.04" x2="48.26" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="STMP1" gate="G$1" pin="6"/>
+<pinref part="STMP" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
 <pinref part="R44" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="190.5" x2="30.48" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="STMP1" gate="G$1" pin="5"/>
+<pinref part="STMP" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
 <pinref part="R45" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="187.96" x2="48.26" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="STMP1" gate="G$1" pin="4"/>
+<pinref part="STMP" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="N$28" class="0">
 <segment>
 <pinref part="R46" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="185.42" x2="30.48" y2="185.42" width="0.1524" layer="91"/>
-<pinref part="STMP1" gate="G$1" pin="3"/>
+<pinref part="STMP" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="PC4" class="0">
@@ -10116,61 +10116,61 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <segment>
 <wire x1="132.08" y1="205.74" x2="106.68" y2="205.74" width="0.1524" layer="91"/>
 <label x="109.22" y="205.74" size="1.778" layer="95"/>
-<pinref part="STMP1" gate="G$2" pin="11"/>
+<pinref part="STMP" gate="G$2" pin="11"/>
 </segment>
 </net>
 <net name="SDA2" class="0">
 <segment>
 <wire x1="132.08" y1="203.2" x2="106.68" y2="203.2" width="0.1524" layer="91"/>
 <label x="109.22" y="203.2" size="1.778" layer="95"/>
-<pinref part="STMP1" gate="G$2" pin="10"/>
+<pinref part="STMP" gate="G$2" pin="10"/>
 </segment>
 </net>
 <net name="SPI2_NSS" class="0">
 <segment>
 <wire x1="132.08" y1="200.66" x2="106.68" y2="200.66" width="0.1524" layer="91"/>
 <label x="109.22" y="200.66" size="1.778" layer="95"/>
-<pinref part="STMP1" gate="G$2" pin="9"/>
+<pinref part="STMP" gate="G$2" pin="9"/>
 </segment>
 </net>
 <net name="SPI2_MOSI" class="0">
 <segment>
 <wire x1="132.08" y1="193.04" x2="106.68" y2="193.04" width="0.1524" layer="91"/>
 <label x="109.22" y="193.04" size="1.778" layer="95"/>
-<pinref part="STMP1" gate="G$2" pin="6"/>
+<pinref part="STMP" gate="G$2" pin="6"/>
 </segment>
 </net>
 <net name="SPI2_SCLK" class="0">
 <segment>
 <wire x1="132.08" y1="198.12" x2="106.68" y2="198.12" width="0.1524" layer="91"/>
 <label x="109.22" y="198.12" size="1.778" layer="95"/>
-<pinref part="STMP1" gate="G$2" pin="8"/>
+<pinref part="STMP" gate="G$2" pin="8"/>
 </segment>
 </net>
 <net name="SPI2_MISO" class="0">
 <segment>
 <wire x1="132.08" y1="195.58" x2="106.68" y2="195.58" width="0.1524" layer="91"/>
 <label x="109.22" y="195.58" size="1.778" layer="95"/>
-<pinref part="STMP1" gate="G$2" pin="7"/>
+<pinref part="STMP" gate="G$2" pin="7"/>
 </segment>
 </net>
 <net name="PA8" class="0">
 <segment>
-<pinref part="STMP1" gate="G$2" pin="5"/>
+<pinref part="STMP" gate="G$2" pin="5"/>
 <wire x1="132.08" y1="190.5" x2="106.68" y2="190.5" width="0.1524" layer="91"/>
 <label x="109.22" y="190.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PA15" class="0">
 <segment>
-<pinref part="STMP1" gate="G$2" pin="4"/>
+<pinref part="STMP" gate="G$2" pin="4"/>
 <wire x1="106.68" y1="187.96" x2="132.08" y2="187.96" width="0.1524" layer="91"/>
 <label x="109.22" y="187.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PB3" class="0">
 <segment>
-<pinref part="STMP1" gate="G$2" pin="3"/>
+<pinref part="STMP" gate="G$2" pin="3"/>
 <wire x1="132.08" y1="185.42" x2="106.68" y2="185.42" width="0.1524" layer="91"/>
 <label x="109.22" y="185.42" size="1.778" layer="95"/>
 </segment>
