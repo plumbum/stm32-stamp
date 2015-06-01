@@ -5417,12 +5417,12 @@ protect two CAN bus lines
 <wire x1="5.715" y1="1.27" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
 <wire x1="5.08" y1="-0.635" x2="5.715" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="6.985" y1="-1.27" x2="5.715" y2="-1.27" width="0.1524" layer="21"/>
-<pad name="1" x="-6.35" y="0.127" drill="1" shape="square" rot="R90"/>
-<pad name="2" x="-3.81" y="-0.127" drill="1" shape="octagon" rot="R90"/>
-<pad name="3" x="-1.27" y="0.127" drill="1" shape="octagon" rot="R90"/>
-<pad name="4" x="1.27" y="-0.127" drill="1" shape="octagon" rot="R90"/>
-<pad name="5" x="3.81" y="0.127" drill="1" shape="octagon" rot="R90"/>
-<pad name="6" x="6.35" y="-0.127" drill="1" shape="octagon" rot="R90"/>
+<pad name="1" x="-6.35" y="0.1778" drill="1" shape="square" rot="R90"/>
+<pad name="2" x="-3.81" y="-0.1778" drill="1" shape="octagon" rot="R90"/>
+<pad name="3" x="-1.27" y="0.1778" drill="1" shape="octagon" rot="R90"/>
+<pad name="4" x="1.27" y="-0.1778" drill="1" shape="octagon" rot="R90"/>
+<pad name="5" x="3.81" y="0.1778" drill="1" shape="octagon" rot="R90"/>
+<pad name="6" x="6.35" y="-0.1778" drill="1" shape="octagon" rot="R90"/>
 <text x="-8.1788" y="-1.3462" size="1.27" layer="25" ratio="18" rot="R90">&gt;NAME</text>
 <text x="-7.62" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <text x="-7.35" y="1.555" size="0.8128" layer="21" ratio="14">Vcc</text>
